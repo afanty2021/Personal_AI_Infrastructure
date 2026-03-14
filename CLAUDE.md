@@ -1,6 +1,6 @@
 # Personal AI Infrastructure - 项目索引
 
-> **更新时间：** 2026-03-13 10:20:00
+> **更新时间：** 2026-03-14 16:30:00
 > **版本：** v4.0.3
 > **状态：** 活跃开发中
 
@@ -196,26 +196,13 @@ PAI 的设计理念可应用于任何需要持久化 AI 助手的项目：
 
 ## 变更记录 (Changelog)
 
-### 2026-03-08 - 初始化完成
-- 📊 创建项目根级 CLAUDE.md
-- 🗂️ 建立模块索引和分类
-- 📈 生成 Mermaid 结构图
-- 🔍 记录 8 个历史版本
-- ✨ 文档化 12 大技能类别
-- 📋 整理技术栈和开发指南
-
----
-
-## 相关资源
-
-- **主 README**：`README.md` - 完整的项目介绍和使用指南
-- **平台兼容性**：`PLATFORM.md` - 跨平台支持状态
-- **Releases README**：`Releases/README.md` - 所有版本列表
-- **当前版本**：`Releases/v4.0.3/README.md` - v4.0.3 发布说明
-- **GitHub**：https://github.com/danielmiessler/Personal_AI_Infrastructure
-- **作者博客**：https://danielmiessler.com
-
----
+### 2026-03-14 - 同步上游 WorkCommand 功能
+- 🔄 从 upstream 获取 4 个新提交
+- ✨ **WorkCommand Pack**: 新增 /w 和 /work 斜杠命令，用于会话历史召回
+- ✨ **自动检测**: WorkCommand 自动检测 PAI 与标准 Claude Code 安装
+- 📚 新增 Packs 目录 README 文档
+- 🔧 修复死链接，重命名 /W → /w
+- 📦 合并 6 个新文件，共 973 行代码
 
 ### 2026-03-13 - 同步上游更新
 - 🔄 从上游获取最新提交 (#938)
@@ -223,3 +210,9 @@ PAI 的设计理念可应用于任何需要持久化 AI 助手的项目：
 - 📦 合并并推送到 origin
 
 ### 2026-03-08 - 初始化完成
+- 📊 创建项目根级 CLAUDE.md
+- 🗂️ 建立模块索引和分类
+- 📈 生成 Mermaid 结构图
+- 🔍 记录 8 个历史版本
+- ✨ 文档化 12 大技能类别
+- 📋 整理技术栈和开发指南
